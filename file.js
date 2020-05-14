@@ -13,4 +13,5 @@ const a = prompt("Один из просмотренных фильмов?", "")
   d = prompt("На сколько оцените его?", "");
 
 personalMovieOB.movies[a] = b;
-
+personalMovieOB.movies[c] = d;
+console.log(personalMovieOB);
